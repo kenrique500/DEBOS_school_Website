@@ -5,12 +5,38 @@ import { Route, Switch } from "wouter";
 import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
+import About from "./pages/About";
+import Primary from "./pages/Primary";
+import Secondary from "./pages/Secondary";
+import Academics from "./pages/Academics";
+import Activities from "./pages/Activities";
+import Campus from "./pages/Campus";
+import Gallery from "./pages/Gallery";
+import News from "./pages/News";
+import Admissions from "./pages/Admissions";
+import Contact from "./pages/Contact";
+import VirtualTour from "./pages/VirtualTour";
+import DayInLife from "./pages/DayInLife";
+import Alumni from "./pages/Alumni";
 
 
 function Router() {
   return (
     <Switch>
       <Route path={"/"} component={Home} />
+      <Route path={"/about"} component={About} />
+      <Route path={"/primary"} component={Primary} />
+      <Route path={"/secondary"} component={Secondary} />
+      <Route path={"/academics"} component={Academics} />
+      <Route path={"/activities"} component={Activities} />
+      <Route path={"/campus"} component={Campus} />
+      <Route path={"/gallery"} component={Gallery} />
+      <Route path={"/news"} component={News} />
+      <Route path={"/admissions"} component={Admissions} />
+      <Route path={"/contact"} component={Contact} />
+      <Route path={"/virtual-tour"} component={VirtualTour} />
+      <Route path={"/day-in-life"} component={DayInLife} />
+      <Route path={"/alumni"} component={Alumni} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />
