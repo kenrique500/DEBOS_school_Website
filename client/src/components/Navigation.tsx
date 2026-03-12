@@ -4,8 +4,8 @@ import { Menu, X } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 /**
- * Navigation Component - Academic Heritage Design
- * Sticky header with deep navy background and gold accents
+ * Navigation Component - Professional Modern Design
+ * Deep Teal primary with gold accents, smooth animations
  * Features: Logo, main nav links, mobile hamburger menu, CTA button
  */
 export default function Navigation() {
@@ -30,18 +30,18 @@ export default function Navigation() {
   ];
 
   return (
-    <nav className="sticky top-0 z-50 bg-primary text-primary-foreground shadow-lg">
+    <nav className="sticky top-0 z-50 bg-primary text-primary-foreground shadow-lg border-b-4 border-accent">
       <div className="container">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
           <Link href="/">
-            <div className="flex items-center gap-2 cursor-pointer hover:opacity-80 transition-opacity">
-              <div className="w-10 h-10 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold text-lg">EA</span>
+            <div className="flex items-center gap-3 cursor-pointer hover:opacity-80 transition-opacity">
+              <div className="w-12 h-12 bg-accent rounded-lg flex items-center justify-center shadow-md">
+                <span className="text-primary font-bold text-xl font-serif">D</span>
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-lg font-bold font-serif">DEBOS Bilingual</h1>
-                <p className="text-xs text-primary-foreground/70">Secondary School</p>
+                <h1 className="text-lg font-bold font-serif leading-tight">DEBOS</h1>
+                <p className="text-xs text-primary-foreground/80">Bilingual Secondary</p>
               </div>
             </div>
           </Link>
@@ -62,9 +62,9 @@ export default function Navigation() {
           <div className="hidden lg:block">
             <Link href="/admissions">
               <Button
-                className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold"
+                className="bg-accent text-accent-foreground hover:bg-accent/90 font-semibold shadow-md"
               >
-                Book a Visit
+                Apply Now
               </Button>
             </Link>
           </div>
@@ -103,7 +103,7 @@ export default function Navigation() {
                     onClick={() => setIsOpen(false)}
                     className="w-full bg-accent text-accent-foreground hover:bg-accent/90 font-semibold"
                   >
-                    Book a Visit
+                    Apply Now
                   </Button>
                 </Link>
               </div>
