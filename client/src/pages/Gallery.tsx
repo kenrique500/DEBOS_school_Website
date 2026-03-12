@@ -53,7 +53,7 @@ export default function Gallery() {
               backgroundPosition: 'center',
             }}
           >
-            <div className="absolute inset-0 bg-primary/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60" />
           </div>
           <div className="container relative z-10">
             <motion.div

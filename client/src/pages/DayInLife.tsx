@@ -91,7 +91,7 @@ export default function DayInLife() {
               backgroundPosition: 'center',
             }}
           >
-            <div className="absolute inset-0 bg-primary/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60" />
           </div>
           <div className="container relative z-10">
             <motion.div
@@ -116,7 +116,7 @@ export default function DayInLife() {
               className="text-center mb-16"
             >
               <h2 className="section-title">From Morning to Evening</h2>
-              <div className="w-16 h-1 bg-accent mx-auto mt-4" />
+              <div className="w-20 h-1 bg-accent mx-auto mt-4 rounded-full" />
             </motion.div>
 
             {/* Timeline */}
@@ -237,7 +237,7 @@ export default function DayInLife() {
               className="text-center mb-16"
             >
               <h2 className="section-title">What Makes Our Days Special</h2>
-              <div className="w-16 h-1 bg-accent mx-auto mt-4" />
+              <div className="w-20 h-1 bg-accent mx-auto mt-4 rounded-full" />
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">

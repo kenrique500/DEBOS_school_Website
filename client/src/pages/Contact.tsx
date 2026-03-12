@@ -73,7 +73,7 @@ export default function Contact() {
               backgroundPosition: 'center',
             }}
           >
-            <div className="absolute inset-0 bg-primary/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60" />
           </div>
           <div className="container relative z-10">
             <motion.div
@@ -81,8 +81,8 @@ export default function Contact() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
             >
-              <h1 className="text-5xl md:text-6xl font-bold text-primary-foreground font-serif">Get In Touch</h1>
-              <p className="text-xl text-primary-foreground/90 mt-4 max-w-2xl">We'd love to hear from you. Contact us anytime.</p>
+              <h1 className="text-5xl md:text-6xl font-bold text-primary-foreground font-serif">Contact Us</h1>
+              <p className="text-xl text-primary-foreground/90 mt-4 max-w-2xl">We're Here to Help and Answer Your Questions</p>
             </motion.div>
           </div>
         </section>

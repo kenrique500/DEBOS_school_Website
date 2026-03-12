@@ -77,7 +77,7 @@ export default function Activities() {
               backgroundPosition: 'center',
             }}
           >
-            <div className="absolute inset-0 bg-primary/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60" />
           </div>
           <div className="container relative z-10">
             <motion.div
@@ -102,7 +102,7 @@ export default function Activities() {
               className="text-center mb-16"
             >
               <h2 className="section-title">Sports Programs</h2>
-              <div className="w-16 h-1 bg-accent mx-auto mt-4" />
+              <div className="w-20 h-1 bg-accent mx-auto mt-4 rounded-full" />
             </motion.div>
 
             <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-6">
@@ -168,7 +168,7 @@ export default function Activities() {
               className="text-center mb-16"
             >
               <h2 className="section-title">Why Student Life Matters</h2>
-              <div className="w-16 h-1 bg-accent mx-auto mt-4" />
+              <div className="w-20 h-1 bg-accent mx-auto mt-4 rounded-full" />
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
@@ -264,7 +264,7 @@ export default function Activities() {
               className="text-center mb-16"
             >
               <h2 className="section-title">What Our Students Say</h2>
-              <div className="w-16 h-1 bg-accent mx-auto mt-4" />
+              <div className="w-20 h-1 bg-accent mx-auto mt-4 rounded-full" />
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
