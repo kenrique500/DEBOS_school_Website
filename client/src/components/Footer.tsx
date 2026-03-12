@@ -17,12 +17,12 @@ export default function Footer() {
           <div>
             <div className="flex items-center gap-2 mb-4">
               <div className="w-8 h-8 bg-accent rounded-lg flex items-center justify-center">
-                <span className="text-primary font-bold text-sm">EA</span>
+                <span className="text-primary font-bold text-sm">DB</span>
               </div>
-              <h3 className="text-lg font-bold font-serif">Elite Academy</h3>
+              <h3 className="text-lg font-bold font-serif">DEBOS Bilingual</h3>
             </div>
             <p className="text-sm text-primary-foreground/80 mb-4">
-              Shaping leaders of tomorrow through excellence in education, innovation, and character development.
+              Excellence in bilingual education. Shaping global leaders through academic rigor and character development.
             </p>
             <div className="flex gap-4">
               <a href="#" className="hover:text-accent transition-colors">
@@ -69,13 +69,13 @@ export default function Footer() {
             <h4 className="font-semibold mb-4 text-accent">Academics</h4>
             <ul className="space-y-2 text-sm">
               <li>
-                <Link href="/primary">
-                  <span className="hover:text-accent transition-colors cursor-pointer">Primary Section</span>
+                <Link href="/secondary">
+                  <span className="hover:text-accent transition-colors cursor-pointer">Secondary Section</span>
                 </Link>
               </li>
               <li>
-                <Link href="/secondary">
-                  <span className="hover:text-accent transition-colors cursor-pointer">Secondary Section</span>
+                <Link href="/teachers">
+                  <span className="hover:text-accent transition-colors cursor-pointer">Our Teachers</span>
                 </Link>
               </li>
               <li>
@@ -97,15 +97,15 @@ export default function Footer() {
             <ul className="space-y-3 text-sm">
               <li className="flex gap-3">
                 <MapPin className="w-5 h-5 flex-shrink-0 text-accent" />
-                <span>123 Academy Lane, Education City, EC 12345</span>
+                <span>Kombe, Kotto Road Benabocko, Mongo Division, Cameroon</span>
               </li>
               <li className="flex gap-3">
                 <Phone className="w-5 h-5 flex-shrink-0 text-accent" />
-                <span>+1 (555) 123-4567</span>
+                <span>+237 (0) 123 456 789</span>
               </li>
               <li className="flex gap-3">
                 <Mail className="w-5 h-5 flex-shrink-0 text-accent" />
-                <span>info@eliteacademy.edu</span>
+                <span>info@debosbilingual.cm</span>
               </li>
             </ul>
           </div>
@@ -114,7 +114,7 @@ export default function Footer() {
         {/* Divider */}
         <div className="border-t border-primary-foreground/20 pt-8">
           <div className="flex flex-col md:flex-row justify-between items-center text-sm text-primary-foreground/70">
-            <p>&copy; {currentYear} Elite Academy. All rights reserved.</p>
+            <p>&copy; {currentYear} DEBOS Bilingual Secondary School. All rights reserved.</p>
             <div className="flex gap-6 mt-4 md:mt-0">
               <a href="#" className="hover:text-accent transition-colors">Privacy Policy</a>
               <a href="#" className="hover:text-accent transition-colors">Terms of Service</a>

@@ -6,7 +6,6 @@ import ErrorBoundary from "./components/ErrorBoundary";
 import { ThemeProvider } from "./contexts/ThemeContext";
 import Home from "./pages/Home";
 import About from "./pages/About";
-import Primary from "./pages/Primary";
 import Secondary from "./pages/Secondary";
 import Academics from "./pages/Academics";
 import Activities from "./pages/Activities";
@@ -18,6 +17,8 @@ import Contact from "./pages/Contact";
 import VirtualTour from "./pages/VirtualTour";
 import DayInLife from "./pages/DayInLife";
 import Alumni from "./pages/Alumni";
+import Teachers from "./pages/Teachers";
+import ClassPictures from "./pages/ClassPictures";
 
 
 function Router() {
@@ -25,7 +26,6 @@ function Router() {
     <Switch>
       <Route path={"/"} component={Home} />
       <Route path={"/about"} component={About} />
-      <Route path={"/primary"} component={Primary} />
       <Route path={"/secondary"} component={Secondary} />
       <Route path={"/academics"} component={Academics} />
       <Route path={"/activities"} component={Activities} />
@@ -37,6 +37,8 @@ function Router() {
       <Route path={"/virtual-tour"} component={VirtualTour} />
       <Route path={"/day-in-life"} component={DayInLife} />
       <Route path={"/alumni"} component={Alumni} />
+      <Route path={"/teachers"} component={Teachers} />
+      <Route path={"/class-pictures"} component={ClassPictures} />
       <Route path={"/404"} component={NotFound} />
       {/* Final fallback route */}
       <Route component={NotFound} />

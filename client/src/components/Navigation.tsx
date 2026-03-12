@@ -14,11 +14,12 @@ export default function Navigation() {
   const navLinks = [
     { label: 'Home', href: '/' },
     { label: 'About', href: '/about' },
-    { label: 'Primary', href: '/primary' },
     { label: 'Secondary', href: '/secondary' },
     { label: 'Academics', href: '/academics' },
     { label: 'Activities', href: '/activities' },
     { label: 'Campus', href: '/campus' },
+    { label: 'Teachers', href: '/teachers' },
+    { label: 'Class Pictures', href: '/class-pictures' },
     { label: 'Gallery', href: '/gallery' },
     { label: 'News', href: '/news' },
     { label: 'Virtual Tour', href: '/virtual-tour' },
@@ -39,8 +40,8 @@ export default function Navigation() {
                 <span className="text-primary font-bold text-lg">EA</span>
               </div>
               <div className="hidden sm:block">
-                <h1 className="text-lg font-bold font-serif">Elite Academy</h1>
-                <p className="text-xs text-primary-foreground/70">Shaping Leaders</p>
+                <h1 className="text-lg font-bold font-serif">DEBOS Bilingual</h1>
+                <p className="text-xs text-primary-foreground/70">Secondary School</p>
               </div>
             </div>
           </Link>

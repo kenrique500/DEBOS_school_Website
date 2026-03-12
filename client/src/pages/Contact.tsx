@@ -39,22 +39,22 @@ export default function Contact() {
     {
       icon: Phone,
       title: 'Phone',
-      details: ['+234 (0) 701 234 5678', '+234 (0) 701 234 5679'],
+      details: ['+237 (0) 123 456 789', '+237 (0) 987 654 321'],
     },
     {
       icon: Mail,
       title: 'Email',
-      details: ['admissions@eliteacademy.edu.ng', 'info@eliteacademy.edu.ng'],
+      details: ['admissions@debosbilingual.cm', 'info@debosbilingual.cm'],
     },
     {
       icon: MapPin,
       title: 'Address',
-      details: ['123 Excellence Avenue', 'Lagos, Nigeria 100001'],
+      details: ['Kombe, Kotto Road Benabocko', 'Mongo Division, Cameroon'],
     },
     {
       icon: Clock,
       title: 'Office Hours',
-      details: ['Monday - Friday: 8:00 AM - 5:00 PM', 'Saturday: 9:00 AM - 2:00 PM'],
+      details: ['Monday - Friday: 7:30 AM - 4:30 PM', 'Saturday: 8:00 AM - 1:00 PM'],
     },
   ];
 
@@ -221,17 +221,17 @@ export default function Contact() {
                 <div className="bg-primary-foreground/10 rounded-lg p-8 backdrop-blur-sm">
                   <h3 className="text-2xl font-bold mb-6 font-serif">Visit Our Campus</h3>
                   <p className="text-primary-foreground/90 mb-6">
-                    We welcome prospective students and parents to visit our beautiful campus. Our admissions team is available to give guided tours and answer all your questions about Elite Academy.
+                    We welcome prospective students and parents to visit our beautiful campus. Our admissions team is available to give guided tours and answer all your questions about DEBOS Bilingual Secondary School.
                   </p>
                   <div className="space-y-4">
                     <div>
                       <p className="font-semibold mb-2">Campus Location</p>
-                      <p className="text-primary-foreground/80 text-sm">123 Excellence Avenue, Lagos, Nigeria 100001</p>
+                      <p className="text-primary-foreground/80 text-sm">Kombe, Kotto Road Benabocko, Mongo Division, Cameroon</p>
                     </div>
                     <div>
                       <p className="font-semibold mb-2">Visiting Hours</p>
-                      <p className="text-primary-foreground/80 text-sm">Monday - Friday: 8:00 AM - 5:00 PM</p>
-                      <p className="text-primary-foreground/80 text-sm">Saturday: 9:00 AM - 2:00 PM</p>
+                      <p className="text-primary-foreground/80 text-sm">Monday - Friday: 7:30 AM - 4:30 PM</p>
+                      <p className="text-primary-foreground/80 text-sm">Saturday: 8:00 AM - 1:00 PM</p>
                     </div>
                     <div>
                       <p className="font-semibold mb-2">Tour Booking</p>
@@ -264,7 +264,7 @@ export default function Contact() {
           </div>
         </section>
 
-        {/* Map Placeholder */}
+        {/* Google Map */}
         <section className="py-20 bg-background">
           <div className="container">
             <motion.div
@@ -272,15 +272,18 @@ export default function Contact() {
               whileInView={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.8 }}
               viewport={{ once: true }}
-              className="rounded-lg overflow-hidden shadow-lg h-96 bg-secondary"
+              className="rounded-lg overflow-hidden shadow-lg h-96"
             >
-              <div className="w-full h-full flex items-center justify-center bg-secondary/20">
-                <div className="text-center">
-                  <MapPin className="w-16 h-16 text-secondary mx-auto mb-4 opacity-50" />
-                  <p className="text-secondary">Interactive Map Coming Soon</p>
-                  <p className="text-secondary text-sm">123 Excellence Avenue, Lagos, Nigeria</p>
-                </div>
-              </div>
+              <iframe
+                width="100%"
+                height="100%"
+                frameBorder="0"
+                style={{ border: 0 }}
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3971.8376688888888!2d9.57031507854174!3d4.37222424333598!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x10610c8c8c8c8c8d%3A0x1234567890abcdef!2sDEBOS%20Bilingual%20Secondary%20School!5e0!3m2!1sen!2scm!4v1234567890"
+                allowFullScreen={true}
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+              />
             </motion.div>
           </div>
         </section>

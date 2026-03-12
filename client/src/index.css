@@ -43,75 +43,75 @@
 }
 
 :root {
-  /* Academic Heritage Color Palette */
-  --primary: #0F3A66; /* Deep Navy Blue */
-  --primary-foreground: #F9F7F3; /* Warm Cream */
-  --accent: #D4A574; /* Brushed Gold */
-  --accent-foreground: #0F3A66; /* Navy for text on gold */
-  --sidebar-primary: #0F3A66;
-  --sidebar-primary-foreground: #F9F7F3;
-  --chart-1: #0F3A66;
-  --chart-2: #D4A574;
-  --chart-3: #6B7280;
-  --chart-4: #F9F7F3;
-  --chart-5: #E5E7EB;
+  /* DEBOS Bilingual Secondary School - Uniform Colors */
+  --primary: #1F6F3A; /* Primary Green (collar & button line) */
+  --primary-foreground: #FFFFFF; /* White text */
+  --accent: #6FBF73; /* Light Green (checks) */
+  --accent-foreground: #1F6F3A; /* Dark green text on light green */
+  --sidebar-primary: #2E8B57; /* Secondary Green */
+  --sidebar-primary-foreground: #FFFFFF;
+  --chart-1: #6FBF73; /* Light Green */
+  --chart-2: #2E8B57; /* Secondary Green */
+  --chart-3: #1F6F3A; /* Primary Green */
+  --chart-4: #1a5a2f; /* Darker green */
+  --chart-5: #134620; /* Darkest green */
   --radius: 0.65rem;
-  --background: #F9F7F3; /* Warm Cream */
-  --foreground: #0F3A66; /* Deep Navy */
+  --background: #FFFFFF; /* White background */
+  --foreground: #1F6F3A; /* Primary Green text */
   --card: #FFFFFF;
-  --card-foreground: #0F3A66;
+  --card-foreground: #1F6F3A;
   --popover: #FFFFFF;
-  --popover-foreground: #0F3A66;
-  --secondary: #6B7280; /* Soft Gray */
+  --popover-foreground: #1F6F3A;
+  --secondary: #2E8B57; /* Secondary Green */
   --secondary-foreground: #FFFFFF;
-  --muted: #E5E7EB;
-  --muted-foreground: #6B7280;
+  --muted: #E8F5E9; /* Very light green */
+  --muted-foreground: #2E8B57;
   --destructive: #DC2626;
   --destructive-foreground: #FFFFFF;
-  --border: #E5E7EB;
-  --input: #FFFFFF;
-  --ring: #D4A574;
+  --border: #C8E6C9; /* Light green border */
+  --input: #F1F8F4; /* Very light green input */
+  --ring: #2E8B57;
   --sidebar: #FFFFFF;
-  --sidebar-foreground: #0F3A66;
-  --sidebar-accent: #D4A574;
-  --sidebar-accent-foreground: #0F3A66;
-  --sidebar-border: #E5E7EB;
-  --sidebar-ring: #D4A574;
+  --sidebar-foreground: #1F6F3A;
+  --sidebar-accent: #6FBF73;
+  --sidebar-accent-foreground: #1F6F3A;
+  --sidebar-border: #C8E6C9;
+  --sidebar-ring: #2E8B57;
 }
 
 .dark {
-  --primary: #0F3A66;
-  --primary-foreground: #F9F7F3;
-  --sidebar-primary: #0F3A66;
-  --sidebar-primary-foreground: #F9F7F3;
-  --background: #0F3A66;
-  --foreground: #F9F7F3;
-  --card: #1A4A7A;
-  --card-foreground: #F9F7F3;
-  --popover: #1A4A7A;
-  --popover-foreground: #F9F7F3;
-  --secondary: #6B7280;
-  --secondary-foreground: #F9F7F3;
-  --muted: #2D5A8C;
-  --muted-foreground: #D4A574;
-  --accent: #D4A574;
-  --accent-foreground: #0F3A66;
+  --primary: #1F6F3A;
+  --primary-foreground: #FFFFFF;
+  --sidebar-primary: #2E8B57;
+  --sidebar-primary-foreground: #FFFFFF;
+  --background: #0F2818;
+  --foreground: #E8F5E9;
+  --card: #1A3A2A;
+  --card-foreground: #E8F5E9;
+  --popover: #1A3A2A;
+  --popover-foreground: #E8F5E9;
+  --secondary: #2E8B57;
+  --secondary-foreground: #FFFFFF;
+  --muted: #2A4A3A;
+  --muted-foreground: #A8D6B2;
+  --accent: #6FBF73;
+  --accent-foreground: #0F2818;
   --destructive: #EF4444;
   --destructive-foreground: #FFFFFF;
-  --border: #2D5A8C;
-  --input: #1A4A7A;
-  --ring: #D4A574;
-  --chart-1: #D4A574;
-  --chart-2: #0F3A66;
-  --chart-3: #6B7280;
-  --chart-4: #F9F7F3;
-  --chart-5: #E5E7EB;
-  --sidebar: #1A4A7A;
-  --sidebar-foreground: #F9F7F3;
-  --sidebar-accent: #D4A574;
-  --sidebar-accent-foreground: #0F3A66;
-  --sidebar-border: #2D5A8C;
-  --sidebar-ring: #D4A574;
+  --border: #2A4A3A;
+  --input: #1A3A2A;
+  --ring: #6FBF73;
+  --chart-1: #6FBF73;
+  --chart-2: #2E8B57;
+  --chart-3: #1F6F3A;
+  --chart-4: #1a5a2f;
+  --chart-5: #134620;
+  --sidebar: #1A3A2A;
+  --sidebar-foreground: #E8F5E9;
+  --sidebar-accent: #6FBF73;
+  --sidebar-accent-foreground: #FFFFFF;
+  --sidebar-border: #2A4A3A;
+  --sidebar-ring: #6FBF73;
 }
 
 @layer base {

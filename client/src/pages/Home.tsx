@@ -114,24 +114,27 @@ export default function Home() {
               className="max-w-2xl"
             >
               <h1 className="text-5xl md:text-7xl font-bold text-primary-foreground mb-6 font-serif leading-tight">
-                Shaping Leaders of Tomorrow
+                DEBOS Bilingual Secondary School
               </h1>
-              <p className="text-xl text-primary-foreground/90 mb-8 max-w-xl">
-                Experience world-class education that combines academic excellence with character development, innovation, and global vision.
+              <p className="text-lg text-primary-foreground/90 mb-4 max-w-xl">
+                Kombe, Kotto Road Benabocko, Mongo Division, Cameroon
+              </p>
+              <p className="text-lg text-primary-foreground/90 mb-8 max-w-xl">
+                Excellence in Bilingual Education. Shaping Global Leaders Through Academic Rigor and Character Development.
               </p>
               <div className="flex flex-col sm:flex-row gap-4">
-                <Link href="/primary">
+                <Link href="/secondary">
                   <Button className="bg-accent text-accent-foreground hover:bg-accent/90 text-lg px-8 py-6 font-semibold">
-                    Explore Primary
+                    Explore Our School
                     <ArrowRight className="ml-2 w-5 h-5" />
                   </Button>
                 </Link>
-                <Link href="/secondary">
+                <Link href="/admissions">
                   <Button
                     variant="outline"
                     className="border-primary-foreground text-primary-foreground hover:bg-primary-foreground/10 text-lg px-8 py-6 font-semibold"
                   >
-                    Explore Secondary
+                    Apply Now
                   </Button>
                 </Link>
               </div>
