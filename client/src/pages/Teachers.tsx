@@ -145,7 +145,7 @@ export default function Teachers() {
               backgroundPosition: 'center',
             }}
           >
-            <div className="absolute inset-0 bg-primary/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60" />
           </div>
           <div className="container relative z-10">
             <motion.div
@@ -169,9 +169,9 @@ export default function Teachers() {
               viewport={{ once: true }}
               className="text-center mb-16"
             >
-              <h2 className="text-4xl font-bold mb-4 font-serif text-primary">Meet Our Faculty</h2>
+              <h2 className="section-title">Meet Our Faculty</h2>
               <p className="text-secondary max-w-2xl mx-auto">Our experienced and qualified teachers are committed to academic excellence and student development.</p>
-              <div className="w-16 h-1 bg-accent mx-auto mt-4" />
+              <div className="w-20 h-1 bg-accent mx-auto mt-4 rounded-full" />
             </motion.div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
@@ -182,11 +182,11 @@ export default function Teachers() {
                   whileInView={{ opacity: 1, y: 0 }}
                   transition={{ duration: 0.8, delay: index * 0.05 }}
                   viewport={{ once: true }}
-                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-shadow"
+                  className="bg-white rounded-lg shadow-lg overflow-hidden hover:shadow-xl transition-all hover:-translate-y-2 border-t-4 border-secondary"
                 >
                   {/* Teacher Avatar */}
-                  <div className="h-48 bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
-                    <div className="text-6xl">👨‍🏫</div>
+                  <div className="h-40 bg-gradient-to-br from-primary to-secondary flex items-center justify-center">
+                    <div className="text-5xl">👨‍🏫</div>
                   </div>
 
                   {/* Teacher Info */}

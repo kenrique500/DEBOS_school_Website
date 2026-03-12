@@ -12,10 +12,10 @@ import { Button } from '@/components/ui/button';
 
 export default function Admissions() {
   const requirements = [
-    { class: 'Nursery - Class 2', age: '3-8 years', test: 'Assessment & Interview' },
-    { class: 'Class 3 - 6', age: '8-12 years', test: 'Entrance Exam & Interview' },
-    { class: 'Class 7 - 9', age: '12-15 years', test: 'Entrance Exam & Interview' },
-    { class: 'Class 10 - 12', age: '15-18 years', test: 'Entrance Exam & Interview' },
+    { class: 'Form 1 - Form 3', age: '12-15 years', test: 'Entrance Exam & Interview' },
+    { class: 'Form 4 - Form 5', age: '15-17 years', test: 'Entrance Exam & Interview' },
+    { class: 'Lower Sixth', age: '17-18 years', test: 'Entrance Exam & Interview' },
+    { class: 'Upper Sixth', age: '18-19 years', test: 'Entrance Exam & Interview' },
   ];
 
   const steps = [
@@ -42,9 +42,9 @@ export default function Admissions() {
   ];
 
   const feesStructure = [
-    { level: 'Primary (Classes 1-6)', annual: '₦850,000', term: '₦280,000' },
-    { level: 'Junior Secondary (Classes 7-9)', annual: '₦950,000', term: '₦315,000' },
-    { level: 'Senior Secondary (Classes 10-12)', annual: '₦1,050,000', term: '₦350,000' },
+    { level: 'Lower Secondary (Form 1-3)', annual: 'XFA 450,000', term: 'XFA 150,000' },
+    { level: 'Upper Secondary (Form 4-5)', annual: 'XFA 550,000', term: 'XFA 185,000' },
+    { level: 'Sixth Form (Lower & Upper)', annual: 'XFA 650,000', term: 'XFA 220,000' },
   ];
 
   return (
@@ -62,7 +62,7 @@ export default function Admissions() {
               backgroundPosition: 'center',
             }}
           >
-            <div className="absolute inset-0 bg-primary/70" />
+            <div className="absolute inset-0 bg-gradient-to-r from-primary/80 to-primary/60" />
           </div>
           <div className="container relative z-10">
             <motion.div
@@ -71,7 +71,7 @@ export default function Admissions() {
               transition={{ duration: 0.8 }}
             >
               <h1 className="text-5xl md:text-6xl font-bold text-primary-foreground font-serif">Admissions</h1>
-              <p className="text-xl text-primary-foreground/90 mt-4 max-w-2xl">Join the Elite Academy Family</p>
+              <p className="text-xl text-primary-foreground/90 mt-4 max-w-2xl">Join the DEBOS Family</p>
             </motion.div>
           </div>
         </section>
